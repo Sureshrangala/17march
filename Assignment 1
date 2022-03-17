@@ -1,0 +1,13 @@
+#remove owels from the given string (a,e,i,o,u)
+
+s=input()
+l=list(s)#covert string into list
+x=[]
+for i in l:
+    if i=='a' or i=='A' or i=='e' or i=='E' or i=='I' or i=='i' or i=='O' or i=='o' or i=='U' or i=='u':
+        continue
+    else:
+        x.append(i)
+
+for i in x:
+    print(i,end='')
